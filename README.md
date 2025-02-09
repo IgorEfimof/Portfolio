@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
@@ -9,6 +10,7 @@
             margin: 0;
             padding: 0;
             text-align: center;
+            background-color: #f4f4f4;
         }
         header {
             background: #333;
@@ -17,24 +19,32 @@
             font-size: 24px;
         }
         .container {
-            padding: 50px;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 50px 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
         }
         .portfolio-item {
             margin-bottom: 30px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background: #fff;
         }
         footer {
             background: #333;
             color: white;
             padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+            position: relative;
+            margin-top: 30px;
         }
         .profile-photo {
             width: 150px;
             height: 150px;
             border-radius: 50%;
-            background-image: url('[https://imgur.com/a/YRMKS5H]') /* Обновленная ссылка на фото */
+            background-image: url('https://i.imgur.com/YRMKS5H.jpg');
             background-size: cover;
             background-position: center;
             margin: 20px auto;
@@ -46,7 +56,7 @@
         <h1>Ефимов Игорь - Фрилансер</h1>
     </header>
     <div class="container">
-        <div class="profile-photo"></div> <!-- Фото пользователя -->
+        <div class="profile-photo"></div> 
 
         <h2>Обо мне</h2>
         <p>Я начинающий фрилансер, специализируюсь на копирайтинге и SEO-оптимизации контента. Готов выполнить вашу работу качественно и в срок.</p>
@@ -62,8 +72,8 @@
         </div>
 
         <h2>Контактная информация</h2>
-        <p>Телефон: +79605120071</p>
-        <p>Email: efimof.ig@yandex.ru</p>
+        <p>Телефон: +7 960 512 00 71</p>
+        <p>Email: <a href="mailto:efimof.ig@yandex.ru">efimof.ig@yandex.ru</a></p>
     </div>
 
     <footer>
@@ -71,3 +81,4 @@
     </footer>
 </body>
 </html>
+
