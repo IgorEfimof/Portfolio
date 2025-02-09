@@ -34,7 +34,7 @@
             width: 150px;
             height: 150px;
             border-radius: 50%;
-            background-image: url('https://imgur.com/Nh6ODtP') /* Обновленная ссылка на фото */
+            background-image: url('[img]https://i.imgur.com/Nh6ODtP.jpeg') /* Обновленная ссылка на фото */
             background-size: cover;
             background-position: center;
             margin: 20px auto;
