@@ -44,7 +44,7 @@
             width: 150px;
             height: 150px;
             border-radius: 50%;
-            background-image: url('https://i.imgur.com/YRMKS5H.jpg');
+            background-image: url('https://i.imgur.com/CQK6aE5.jpeg');
             background-size: cover;
             background-position: center;
             margin: 20px auto;
@@ -81,4 +81,5 @@
     </footer>
 </body>
 </html>
+
 
